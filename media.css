@@ -27,6 +27,12 @@
 
     grid-row-gap: 1rem;
   }
+  .item .grid-img img {
+    max-width: 100%;
+  }
+  .item {
+    text-align: center;
+  }
   .right-link .link {
     /* position: absolute; */
     transform: translateX(1.5rem);
