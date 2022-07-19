@@ -9,6 +9,9 @@
     margin: 1 0;
     text-align: center;
   }
+  .half-width img {
+    width: 100%;
+  }
 
   .logos {
     display: grid;
@@ -18,11 +21,19 @@
     margin: 1rem 0;
   }
   .grid-items {
-    margin: 2rem 1rem 1.5rem;
+    margin: 2rem 0 1.5rem;
 
     grid-template-columns: 1fr;
-    width: 90%;
+
     grid-row-gap: 1rem;
+  }
+  .right-link .link {
+    /* position: absolute; */
+    transform: translateX(1.5rem);
+    /* margin-left: 62.5rem; */
+    padding: 0 0.8rem;
+    background-color: white;
+    color: var(--link-color);
   }
   .item {
     width: 100%;

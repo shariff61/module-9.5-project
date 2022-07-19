@@ -125,7 +125,8 @@ small {
 }
 .right-link .link {
   /* position: absolute; */
-  margin-left: 62.5rem;
+  transform: translateX(62.5rem);
+  /* margin-left: 62.5rem; */
   padding: 0 0.8rem;
   background-color: white;
   color: var(--link-color);
