@@ -56,18 +56,18 @@ h1 {
   color: #343a40;
 }
 .half-width {
-  width: 45%;
+  min-width: 45%;
 }
 .link {
   display: inline-block;
   text-decoration: none;
   background-color: var(--link-color);
-  padding: 1rem 2rem;
+  padding: 1vw 2vw;
   border-radius: 12px;
   margin: 2rem 0;
   color: white;
   font-weight: 700;
-  font-size: 1.3rem;
+  font-size: 1.3vw;
 }
 span {
   margin-left: 0.8rem;
@@ -139,13 +139,13 @@ small {
   margin: 4rem 0;
 }
 .products .img-camera {
-  width: 40%;
+  min-width: 40%;
 }
 .products .product-text {
-  width: 60%;
+  min-width: 60%;
 }
 h2 {
-  font-size: 2.2rem;
+  font-size: 2.2vw;
   color: #212529;
 }
 .half-width small {

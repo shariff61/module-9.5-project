@@ -6,20 +6,31 @@
   .header {
     flex-direction: column-reverse;
     gap: 1rem;
-    margin: 1rem 0;
+    margin: 1 0;
+    text-align: center;
   }
+
   .logos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
-    padding: 1rem 0;
+    padding: 1rem;
     margin: 1rem 0;
   }
   .grid-items {
-    margin: 2rem 2rem 0.5rem;
+    margin: 2rem 1rem 1.5rem;
 
     grid-template-columns: 1fr;
+    width: 90%;
     grid-row-gap: 1rem;
+  }
+  .item {
+    width: 100%;
+
+    /* gap: 1rem; */
+    box-shadow: 4px 4px 10px wheat;
+
+    padding: 1rem 0;
   }
   .products {
     flex-direction: column;
